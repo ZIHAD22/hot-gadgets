@@ -14,3 +14,7 @@
   width: 16px;
   background-size: 147% 100%;
 }
+.position {
+    position: relative;
+    bottom: 58px;
+}
