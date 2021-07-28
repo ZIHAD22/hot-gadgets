@@ -4,3 +4,13 @@
   background-size: 6%;
   background-position: right;
 }
+.carousel-control-next,
+.carousel-control-prev {
+  width: 2.2%;
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  background-color: black;
+  width: 16px;
+  background-size: 147% 100%;
+}
