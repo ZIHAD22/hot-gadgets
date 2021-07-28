@@ -4,6 +4,9 @@
   background-size: 6%;
   background-position: right;
 }
+.container {
+  margin-bottom: 80px;
+}
 .carousel-control-next,
 .carousel-control-prev {
   width: 2.2%;
@@ -15,6 +18,29 @@
   background-size: 147% 100%;
 }
 .position {
-    position: relative;
-    bottom: 58px;
+  position: relative;
+  bottom: 58px;
+}
+.card-style {
+  border: none;
+  box-shadow: -2px 2px 37px -20px grey;
+}
+.card-footer {
+  background-color: white;
+  border-top: none;
+  margin: auto;
+}
+.card-body {
+  text-align: center;
+}
+.text-aline {
+  position: relative;
+  bottom: 30px;
+}
+.see-link {
+  text-decoration: none;
+  color: orange;
+}
+p {
+  color: gray;
 }
