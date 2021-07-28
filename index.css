@@ -24,6 +24,8 @@
 .card-style {
   border: none;
   box-shadow: -2px 2px 37px -20px grey;
+  padding: 20px;
+  border-radius: 10px;
 }
 .card-footer {
   background-color: white;
@@ -43,4 +45,43 @@
 }
 p {
   color: gray;
+}
+.categories img {
+  width: 100%;
+}
+.img1 {
+  width: 400px;
+  position: relative;
+  top: 35px;
+  padding: 13px;
+  left: 34px;
+}
+.img2 {
+  width: 115px;
+  position: relative;
+  top: 14px;
+  padding: 15px;
+  left: 40px;
+}
+.img3 {
+  width: 115px;
+  position: relative;
+  top: 50px;
+  left: 40px;
+  padding: 15px;
+}
+.categories h2 {
+  text-align: center;
+}
+.cat::after {
+  content: "";
+  left: 621px;
+  width: 115px;
+  height: 6px;
+  background-color: orange;
+  position: absolute;
+  border-radius: 4px;
+}
+footer {
+  text-align: center;
 }
