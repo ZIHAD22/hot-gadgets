@@ -85,3 +85,29 @@ p {
 footer {
   text-align: center;
 }
+@media (max-width: 767px) {
+  .img1 {
+    width: 117px;
+    position: relative;
+    top: 206px;
+    padding: 13px;
+    left: -2px;
+  }
+  .img2 {
+    width: 115px;
+    position: relative;
+    top: -9px;
+    padding: 15px;
+    left: 142px;
+  }
+  .img3 {
+    width: 115px;
+    position: relative;
+    top: 14px;
+    padding: 15px;
+    left: 142px;
+  }
+  .cat {
+    display: none;
+  }
+}
